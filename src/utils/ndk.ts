@@ -1,15 +1,16 @@
 import NDK, {
   NDKConstructorParams,
+  NDKEvent,
   NDKNip07Signer,
   NDKPrivateKeySigner,
   NDKRelay,
   NDKRelayAuthPolicies,
   NDKUser,
-  NDKEvent,
 } from "@nostr-dev-kit/ndk"
-import {generateSecretKey, getPublicKey, nip19} from "nostr-tools"
-import NDKCacheAdapterDexie from "@nostr-dev-kit/ndk-cache-dexie"
 import {bytesToHex, hexToBytes} from "@noble/hashes/utils"
+import {generateSecretKey, getPublicKey, nip19} from "nostr-tools"
+
+import NDKCacheAdapterDexie from "@nostr-dev-kit/ndk-cache-dexie"
 import {localState} from "irisdb/src"
 
 let ndkInstance: NDK | null = null
@@ -20,10 +21,10 @@ let nip07Signer: NDKNip07Signer | undefined
  * Default relays to use when initializing NDK
  */
 export const DEFAULT_RELAYS = [
-  "wss://strfry.iris.to",
-  "wss://relay.damus.io",
-  "wss://relay.nostr.band",
-  "wss://relay.snort.social",
+  "http://c4wgw4soggcoog4ckkc44gsg.89.117.123.39.sslip.io",
+  "https://nostrich.mixing.services",
+  "https://cqcqcq.mixing.services",
+  "http://nostr.scrambleduser.vip/",
 ]
 
 /**
