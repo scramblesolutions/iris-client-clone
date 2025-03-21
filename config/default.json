@@ -1,11 +1,11 @@
 {
-  "appName": "iris",
-  "appNameCapitalized": "Iris",
-  "hostname": "iris.to",
+  "appName": "21Eyes",
+  "appNameCapitalized": "21Eyes",
+  "hostname": "21eyes.com",
   "nip05Domain": "iris.to",
   "icon": "/img/icon128.png",
   "navLogo": "/img/icon128.png",
-  "defaultTheme": "iris",
+  "defaultTheme": "light",
   "navItems": [
     "home",
     "search",
