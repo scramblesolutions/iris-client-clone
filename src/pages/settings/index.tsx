@@ -41,7 +41,7 @@ function Settings() {
         {
           icon: "profile",
           iconBg: "bg-purple-500",
-          message: "iris.to username",
+          message: "21Eyes username",
           path: "/settings/iris",
         },
       ],
