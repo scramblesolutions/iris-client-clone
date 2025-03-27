@@ -3,8 +3,8 @@
   "appNameCapitalized": "21Eyes",
   "hostname": "21eyes.com",
   "nip05Domain": "iris.to",
-  "icon": "/img/icon128.png",
-  "navLogo": "/img/icon128.png",
+  "icon": "/img/21eyeslogo.svg",
+  "navLogo": "/img/21eyeslogo.svg",
   "defaultTheme": "light",
   "navItems": [
     "home",

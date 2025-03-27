@@ -14,12 +14,12 @@ html {
 .btn-primary {
   @apply text-base-content;
   border-width: 0px;
-  background: linear-gradient(to top, rgba(60, 33, 200, 1), rgba(122, 41, 288, 1));
+  background: linear-gradient(to top, rgba(69, 128, 255, 1), rgba(49, 71, 163, 1));
   transition: background-image 0.3s ease;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(to top, rgba(60, 33, 200, 0.8), rgba(122, 41, 288, 0.8));
+  background: linear-gradient(to top, rgba(69, 128, 255, 1), rgba(49, 71, 163, 1));
 }
 
 /* Dark theme */
@@ -33,12 +33,12 @@ html {
 
 /* Light theme */
 [data-theme="light"] .btn-primary {
-  background: linear-gradient(to top, rgba(60, 33, 200, 1), rgba(122, 41, 288, 1));
+  background: linear-gradient(to top, rgba(69, 128, 255, 1), rgba(49, 71, 163, 1));
   color: #ffffff;
 }
 
 [data-theme="light"] .btn-primary:hover {
-  background: linear-gradient(to top, rgba(60, 33, 200, 0.8), rgba(122, 41, 288, 0.8));
+  background: linear-gradient(to top, rgba(69, 128, 255, 1), rgba(49, 71, 163, 1));
 }
 
 /* Iris theme */
@@ -62,18 +62,18 @@ iframe {
 }
 
 ::-webkit-scrollbar-track {
-  background: #34216c;
+  background: #3147A3;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #702ace;
+  background-color: #3147A3;
   border-radius: 4px;
 }
 
 /* Firefox scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #702ace #34216c; /* Thumb and track color */
+   background-color:#0D75E3 #3147A3; /* Thumb and track color */
 }
 
 /* src/shared/styles/scrollbar.css */
