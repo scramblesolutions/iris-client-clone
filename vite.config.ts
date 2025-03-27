@@ -1,5 +1,4 @@
 import {nodePolyfills} from "vite-plugin-node-polyfills"
-import {visualizer} from "rollup-plugin-visualizer"
 import {defineConfig} from "vitest/config"
 import react from "@vitejs/plugin-react"
 import {VitePWA} from "vite-plugin-pwa"
@@ -25,11 +24,6 @@ export default defineConfig({
         enabled: true,
         type: "module",
       },
-    }),
-    visualizer({
-      open: true,
-      gzipSize: true,
-      filename: "build/stats.html",
     }),
   ],
   resolve: {

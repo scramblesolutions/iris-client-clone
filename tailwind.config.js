@@ -20,9 +20,9 @@ export default {
     themes: [
       {
         dark: {
-          primary: "#702ace",
-          secondary: "#f87171",
-          accent: "#db8216",
+          primary: "#0D75E3",
+          secondary: "#62B8FF",
+          accent: "#3147A3",
           neutral: "#2a3c5e",
           "base-100": "#1b1c48",
           "base-200": "#030918",
@@ -38,9 +38,9 @@ export default {
       },
       {
         light: {
-          primary: "#a855f7",
-          secondary: "#22d3ee",
-          accent: "#fbbf24",
+          primary: "#0D75E3",
+          secondary: "#62B8FF",
+          accent: "#3147A3",
           neutral: "#3d4451",
           "base-100": "#f5f5f5",
           "base-200": "#ffffff",

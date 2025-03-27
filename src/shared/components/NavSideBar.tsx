@@ -241,8 +241,8 @@ const NavSideBar = () => {
             className="md:mb-2 xl:mb-0 mt-4 ml-4 md:ml-0 xl:ml-5 flex flex-row gap-2 items-center md:justify-center font-bold font-bold text-3xl"
             to="/"
           >
-            <img className="w-8 h-8" src={logoUrl} />
-            <span className="inline md:hidden xl:inline">{CONFIG.appName}</span>
+            <img className="w-[120px] h-10" src={logoUrl} />
+            {/* <span className="inline md:hidden xl:inline">{CONFIG.appName} hehe</span> */}
           </NavLink>
           <ul className="menu px-2 py-0 text-xl flex flex-col gap-4 md:gap-2 xl:gap-4 rounded-2xl">
             {navItems.map(({to, icon, activeIcon, inactiveIcon, label, onClick}) => {
